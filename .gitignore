@@ -1,0 +1,13 @@
+﻿# Yerel konfigürasyon ve çalışma zamanı dosyaları
+/config/config.php
+/storage/*.log
+/storage/installed.lock
+!/storage/.gitkeep
+
+# İşletim sistemi ve editör dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,6 @@
+# Yüklenen dosyaların içinde PHP çalıştırılamaz ve klasör listelenemez.
+Options -Indexes
+
+<FilesMatch "\.(?i:php|phtml|phar|php\d)$">
+    Require all denied
+</FilesMatch>
